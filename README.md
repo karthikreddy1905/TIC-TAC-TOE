@@ -2,11 +2,11 @@
 Final project
 # Developing and Evaluating Multiple Tic-Tac-Toe Agents in a Tournament Environment
 
-This project implements a tournament setting for multiple Tic-Tac-Toe agents. The agents are designed to play against each other in a competitive environment, showcasing different strategies and approaches to the classic game.
+This project creates a competitive tournament environment for multiple Tic-Tac-Toe agents. Each agent showcases a unique strategy, allowing for performance evaluation in a classic game setting.
 
 ## Overview
 
-In this implementation, several Tic-Tac-Toe agents are programmed to compete against each other. Each agent employs a unique algorithm or strategy to make moves and attempt to win the game. The tournament provides a platform to assess the performance of these agents against various opponents.
+The project implements several Tic-Tac-Toe agents that compete against one another using distinct algorithms and strategies. The tournament framework serves as a platform to evaluate their performance against various opponents.
 
 ## Agents
 
@@ -22,23 +22,29 @@ In this implementation, several Tic-Tac-Toe agents are programmed to compete aga
 
 ## Tournament Setup
 
-The tournament consists of multiple rounds, with each agent playing against every other agent multiple times to mitigate randomness. The outcome of each game is recorded, and metrics such as win rate, average game length, and computational resources utilized are analyzed to evaluate the performance of each agent.
+- The tournament involves multiple rounds, with each agent playing against every other agent several times to reduce the influence of randomness.
+- Game outcomes are recorded, and the following metrics are analyzed:
+  1. Win Rate
+  2. Average Game Length
+  3. Computational Efficiency
+- Results are compared to assess agent performance.
+
 
 ## Getting Started
 
 To run the tournament:
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies specified in the `requirements.txt` file.
-3. Execute the main tournament script, specifying the number of rounds and agents to include.
-4. Analyze the results to compare the performance of different agents.
+1. Clone this repository.
+2. Install the dependencies listed in requirements.txt.
+3. Run the main tournament script, specifying the number of rounds and agents to include.
+4. Review the results to compare agent performance.
 
 ## Future Work
 
-- Integration of more advanced agents with novel strategies.
-- Fine-tuning agent parameters for improved performance.
-- Visualization tools for better understanding of game dynamics and agent behavior.
+- Adding advanced agents with novel strategies.
+- Parameter tuning for improved agent performance.
+- Creating visualization tools to analyze game dynamics and agent behaviors.
 
 ## Contribution
 
-Contributions to this project are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
